@@ -89,7 +89,7 @@ export default function App() {
     <>
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #ffffff; font-family: 'Inter', sans-serif; }
+        body { background: #020817; font-family: 'Inter', sans-serif; }
         @keyframes pulse { 0%,80%,100%{transform:scale(0.7);opacity:0.4} 40%{transform:scale(1);opacity:1} }
         textarea:focus { outline: none; border-color: #4f46e5 !important; box-shadow: 0 0 0 3px rgba(99,102,241,0.15); }
         ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
@@ -97,7 +97,7 @@ export default function App() {
       `}</style>
 
       {/* Page bg */}
-      <div style={{ minHeight: '100vh', background: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px' }}>
+      <div style={{ minHeight: '100vh', background: '#020817', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px' }}>
 
         {/* Card */}
         <div style={{ width: '100%', maxWidth: 680, height: '88vh', maxHeight: 780, background: '#0d1117', border: '1px solid #1e2d3d', borderRadius: 20, display: 'flex', flexDirection: 'column', overflow: 'hidden', boxShadow: '0 0 80px rgba(79,70,229,0.06)' }}>
